@@ -1,0 +1,35 @@
+<h1>Show Book</h1>
+
+<ul>
+
+  <li>
+    <strong>Title:</strong>
+    <%= @book.title %>
+  </li>
+
+  <li>
+    <strong>Isbn:</strong>
+    <%= @book.isbn %>
+  </li>
+
+  <li>
+    <strong>Publication date:</strong>
+    <%= @book.publication_date %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: Routes.book_path(@conn, :edit, @book) %></span> |
+<span><%= link "Back", to: Routes.book_path(@conn, :index) %></span>
+
+
+<%= render "review_form.html", book: @book, changeset: @changeset, action: Routes.book_book_path(@conn, :add_a_review, @book) %>
+
+
+<%= for review <- @book.reviews do %>
+  <div class="review">
+    <p>Name of reviewer:<%= review.name %> </p>
+    <p>Content: <%= review.content %></p>
+  </div>
+
+<% end %>
