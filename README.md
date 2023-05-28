@@ -1,7 +1,7 @@
 
 # Project Title
-Phoenix Liveview Validations
 
+Phoenix Library Management System
 
 
 ## Table of Content:
@@ -19,8 +19,7 @@ Phoenix Liveview Validations
  [Library Management System in Phoenix](https://medium.com/@michaelmunavu83/unlock-the-power-of-validations-in-phoenix-live-view-ensuring-robust-user-input-69f77aed422c)
 
 ## Screenshots
-
-<img width="1440" alt="Screenshot 2023-05-21 at 13 21 29" src="https://github.com/MICHAELMUNAVU83/phoenix_liveview_validations/assets/86654131/8cb5cedb-0415-465c-83c7-3c6b8c1c509c">
+<img width="1440" alt="Screenshot 2023-05-28 at 09 06 19" src="https://github.com/MICHAELMUNAVU83/library_management_phoenix/assets/86654131/9497a4fd-6a51-4f6d-82cf-adfd0b348888">
 
 
 
